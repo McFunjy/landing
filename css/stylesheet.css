@@ -4,15 +4,19 @@
   box-sizing: border-box;
 }
 
+html {
+  width: 100%;
+}
 body {
+  margin: auto;
   font-family: sans-serif;
+  min-width: 850px;
 }
 
 .container {
+  max-width: 1180px;
   margin: 0 auto;
   padding: 0 2em;
-  max-width: 1180px;
-  min-width: 850px;
 }
 
 .intro {
